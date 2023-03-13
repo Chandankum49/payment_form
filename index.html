@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_Form</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>Contact Information</h2>
+        <p>Name*: <input type="text" name="name" id="name" required></p>
+        <fieldset>
+            <legend>Choose Your Gender*</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender"
+                    id="female">
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+        <p>Email*: <input type="email" name="email" id="email" required></p>
+        <p>Mobile No*: <input type="number" name="number" id="Number" required> </p>
+        <p>Pincode*: <input type="number" name="pincode" id="pincode" required></p>
+        <fieldset>
+            <legend>Check the box*</legend>
+
+            <p>Single: <input type="checkbox" name="box" id="single" required> Mingle: <input type="checkbox" name="box"
+                    id="mingle"></p>
+        </fieldset>
+        <h2>Payement Information</h2>
+        <p>Card Type*:
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="rupay">Rupay</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+            </select>
+        </p>
+        <p>Card Number*: <input type="number" name="card_number" id="card_number" required></p>
+        <p>Expiration Date*: <input type="date" name="expiration_date" id="expiration_date" required></p>
+        <p>CVV*: <input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay Now">
+    </form>
+    <br><br>
+    <a href="Aboutus.html">About Us</a>
+</body>
+
+</html>
